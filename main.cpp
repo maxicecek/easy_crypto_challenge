@@ -50,7 +50,7 @@ auto main(int arg_count, char** arg_array) -> int
 		std::cout << "\nwrong, try again: ";
 	}
 
-	// print win message
+	// show win messagebox
 	MessageBoxA(0, "good job!", "win", MB_OK | MB_ICONEXCLAMATION);
 
 	// end
